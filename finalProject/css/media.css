@@ -1,0 +1,125 @@
+@media only screen and (max-width:1199px){
+    .navbar-collapse.collapse{
+        display: none!important;
+    }
+    .navbar-toggler{
+        display: block!important;
+        z-index:999;
+    }
+    .nav-toggle-icon{
+        display: block!important;
+    }
+    .carousel1 .text{
+        padding: 250px 50px!important;
+    }
+    .carousel1 .text h2{
+        font-size:3.75rem;
+    }
+}
+@media only screen and (max-width:991px){
+    .service-boxes .row{
+        margin-top:0px!important;
+    }
+    .service-boxes{
+        padding-top: 60px;
+        padding-left:15px;
+        padding-right: 15px;
+    }
+    .about-sec .items{
+        text-align: center!important;
+    }
+    .carousel .carouselText{
+        padding: 50px 20px!important;
+    }
+    .callAppText{
+        padding: 0px 20px!important;
+    }
+    .accordion-wrapper{
+        margin-top:20px;
+        padding-left:0px;
+        padding-right: 0px;
+    }
+    .topFooter{
+        padding:20px 10px!important;
+    }
+    .minLogo{
+        text-align: right!important;
+    }
+    .botFooter-up,
+    .botFooter-down{
+        display: flex;
+        justify-content: center;
+    }
+    .copyright{
+        text-align:center;
+    }
+    .footerNav {
+        margin-top: 20px;
+    }
+    .footerNav ul li:first-child{
+        padding-left:0px;
+    }
+    .footerNav ul{
+        padding: 0px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:639px){
+    .mobile-nav{
+        position: static!important;
+        margin-top:50px;
+    }
+    .topHeader{
+        padding: 10px 0px!important;
+    }
+    .carousel1 .text h2{
+        font-size:2.75rem;
+    }
+    .leftContent{
+        text-align: center!important;
+    }
+    .rightContent{
+        justify-content: center!important;
+    }
+    .rightContent ul{
+        padding:0px;
+    }
+    .navbar{
+        background: #444444!important;
+        text-align:center!important;
+        padding: 20px 0px!important;
+    }
+    .navbar .navbar-brand{
+        margin:auto;
+       
+    }
+    .carousel1{
+        margin-top: -109px!important;
+    }
+    .page-intro{
+        margin-top:-114px!important;
+    }
+    .navbar .nav-toggle-icon{
+        position: static!important;
+        width:100%;
+    }
+    .navbar .nav-toggle-icon span{
+        display: none!important;
+    }
+    .navbar .nav-toggle-icon i{
+        display: block!important;
+        color:#FFF;
+        font-size: 1.6em;
+        margin-top:10px;
+    }
+}
+@media only screen and (max-width:414px){
+    .error-page-wrapper input{
+        width:200px!important;
+    }
+    .error-page-wrapper .button{
+        width:100px!important;
+        margin-right: -7px;
+    }
+}
